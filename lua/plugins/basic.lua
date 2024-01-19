@@ -50,7 +50,7 @@ return {
       {"<leader>r4", "<cmd>ToggleTermSendVisualLines 4<CR>V", mode = "v", desc = "selected lines to terminal 4" },
     },
     opts = {
-      size = 20,
+      size = 40,
       direction = "horizontal",
       winbar = {
         enabled = true,
@@ -73,5 +73,18 @@ return {
       { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
       { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
     },
+  },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    opts = {
+      window = {
+        mappings = {
+          ["s"] = "none",
+          ["S"] = "none",
+          ["f"] = "none",
+          ["F"] = "none",
+        }
+      }
+    }
   },
 }
