@@ -34,10 +34,10 @@ return {
     'akinsho/toggleterm.nvim',
     version = "*",
     keys = {
-      {"<tab>1", "<cmd>1ToggleTerm<CR>", mode = {"n", "t"}, desc = "Toggle terminal 1" },
-      {"<tab>2", "<cmd>2ToggleTerm<CR>", mode = {"n", "t"}, desc = "Toggle terminal 2" },
-      {"<tab>3", "<cmd>3ToggleTerm<CR>", mode = {"n", "t"}, desc = "Toggle terminal 3" },
-      {"<tab>4", "<cmd>4ToggleTerm<CR>", mode = {"n", "t"}, desc = "Toggle terminal 4" },
+      {"<M-1>", "<cmd>1ToggleTerm<CR>", mode = {"n", "t"}, desc = "Toggle terminal 1" },
+      {"<M-2>", "<cmd>2ToggleTerm<CR>", mode = {"n", "t"}, desc = "Toggle terminal 2" },
+      {"<M-3>", "<cmd>3ToggleTerm<CR>", mode = {"n", "t"}, desc = "Toggle terminal 3" },
+      {"<M-4>", "<cmd>4ToggleTerm<CR>", mode = {"n", "t"}, desc = "Toggle terminal 4" },
 
       {"<leader>r1", "<cmd>ToggleTermSendCurrentLine 1<CR>", mode = "n", desc = "current line to terminal 1" },
       {"<leader>r2", "<cmd>ToggleTermSendCurrentLine 2<CR>", mode = "n", desc = "current line to terminal 2" },
